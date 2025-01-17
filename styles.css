@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background: #FBFEFD;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FBFEFD;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(4, 104, 46);
+}
+.home{
+    background-color: #FBFEFD;
+    padding : 0 7 vw;
+    color :#333232;
+    padding-top:30px;
+    padding-bottom:50px;
+    padding-left: 120px;
+}
+.home img{
+    max-width : 70%;
+    height:70%;
+    object-fit: cover;
+}
+.main_slide{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.main_slide div:nth-child(1){
+    flex:1;
+    padding-top:20px;
+    font-size:30px;
+}
+.main_slide div:nth-child(2){
+    flex:1;
+    justify-content: center;
+    padding-top:40px;
+}
+.main_slide div:nth-child(1) span{
+    color: rgb(12, 160, 44);
+}
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+    margin-top:20px;
+    width : 200px;
+    height : 50px;
+    font-size: 20px;
+    font-weight:bold;
+    color:aliceblue;
+    line-height:50px;
+    background-color: rgb(5, 156, 68);
+    border-radius : 5px;
+    border : 1px solid rgb(5, 156, 68);
+    box-shadow: 0 10px 15px rgb(5, 156, 68);
+    transition:all 0.2s;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(5, 156, 68);
+    box-shadow:0 2px 15px 1px solid rgb(5, 156, 68);
+    border: 1px solid rgb(5, 156, 68);
+}
+main {
+    padding: 20px;
+}
+
+.menu {
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+.menu-item h3{
+    text-align: left;
+    padding-left: 10px;
+    padding-right : 10px;
+    font-weight: bold;
+}
+.menu-item h4{
+    text-align: left;
+    padding-left: 10px;
+    padding-right : 10px;
+    font-weight: bold;
+}
+.menu-item p{
+    text-align: left;
+    padding-left: 10px;
+    padding-right : 10px;
+}
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    text-align: center;
+    width : 35%;
+    height : 300px;
+    margin : 10px;
+    padding-top: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+.menu-item img {
+    max-width: 40%; 
+    max-height : 40%;
+    border-radius:50%;
+    height: auto;   
+    object-fit: cover; 
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.video{
+    margin-top : 100px;
+    color: rgb(4, 104, 46);
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer h3{
+    color:rgb(5, 156, 68);
+}
+footer a{
+    color:rgb(4, 80, 36);
+}
+
